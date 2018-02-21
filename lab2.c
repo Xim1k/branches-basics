@@ -21,7 +21,6 @@ int main () {
     for (j = 0; j < 8; j++) {
       printf("%c ", board[i][j]);
     }
-    printf("\n");
   }
   return 0;
 }
