@@ -17,6 +17,7 @@ int main () {
     "PPPPPPPP",
     "RNBQKBNR"
   } ;
+    printf("\nBoard\n");
   for(i = 0; i < 8; i++) {
     for (j = 0; j < 8; j++) {
       printf("%c ", board[i][j]);
